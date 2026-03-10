@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyApp.Algorithm;
+using System;
 
 namespace MyApp
 {
@@ -6,7 +7,7 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            ISolution solution = new SecondLargestElement();
+            ISolution solution = new ReverseNumber();
             solution.Solve();
         }
     }
